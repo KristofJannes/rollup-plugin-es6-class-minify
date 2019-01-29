@@ -1,0 +1,32 @@
+{
+  "name": "rollup-plugin-es6-class-minify",
+  "version": "1.0.0",
+  "description": "A minifier for ES6 objects",
+  "keywords": ["rollup-plugin", "minify", "es6"],
+  "main": "src/index.js",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "dependencies": {
+    "lodash": "4.17.11",
+    "magic-string": "0.25.1"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/KristofJannes/rollup-plugin-es6-class-minify.git"
+  },
+  "author": "Kristof Jannes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KristofJannes/rollup-plugin-es6-class-minify/issues"
+  },
+  "homepage": "https://github.com/KristofJannes/rollup-plugin-es6-class-minify#readme"
+}
