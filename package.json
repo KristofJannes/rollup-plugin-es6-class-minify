@@ -1,15 +1,19 @@
 {
   "name": "rollup-plugin-es6-class-minify",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "A minifier for ES6 objects",
-  "keywords": ["rollup-plugin", "minify", "es6"],
+  "keywords": [
+    "rollup-plugin",
+    "minify",
+    "es6"
+  ],
   "main": "src/index.js",
   "files": [
     "src",
     "README.md"
   ],
   "dependencies": {
-    "es6-class-minify": "2.0.0"
+    "es6-class-minify": "3.1.0"
   },
   "repository": {
     "type": "git",
