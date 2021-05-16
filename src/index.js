@@ -1,15 +1,13 @@
-const ES6ClassMinify = require('es6-class-minify').ES6ClassMinify
+import ES6ClassMinify from "es6-class-minify";
 
-function es6classMinify(options = {}) {
-  const es6ClassMinify = new ES6ClassMinify()
+export default function es6classMinify(exclude = []) {
+  const es6ClassMinify = new ES6ClassMinify(exclude);
 
   return {
-    name: 'es6-class-minify',
+    name: "es6-class-minify",
 
     transform(code) {
-      return es6ClassMinify.minify(code)
+      return es6ClassMinify.minify(code);
     },
-  }
+  };
 }
-
-module.exports = es6classMinify
